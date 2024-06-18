@@ -1,4 +1,4 @@
-```markdown
+
 # Real-Time Scheduler Analysis
 
 This project provides an example of using the Rate Monotonic (RM) scheduling algorithm in a real-time Linux environment. The code includes CPU affinity settings for assigning each task to a specific CPU core and performs a schedulability analysis to ensure that the given tasks can meet their deadlines.
@@ -97,15 +97,3 @@ else:
 
 ### Results
 Run this Python script to determine if the given set of tasks is schedulable under the Rate Monotonic Scheduling policy. If the total utilization is within the bound and each task's response time is within its period, then the task set is schedulable.
-
-**Suggestions for next steps:**
-**a.** Extend the analysis to include other real-time scheduling algorithms like Earliest Deadline First (EDF).
-**b.** Implement dynamic priority adjustment to handle transient overload conditions.
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-**Suggestions for next steps:**
-**a.** Add unit tests to validate the task execution and timing.
-**b.** Implement logging to track the execution and scheduling behavior of tasks in real-time.
