@@ -94,6 +94,3 @@ else:
 - **Utilization Calculation**: Compute the total CPU utilization by summing up the ratio of computation time to period for each task.
 - **Utilization Bound Check**: Compare the total utilization against the RM schedulability bound.
 - **Response-Time Analysis**: Calculate the response time for each task iteratively and check if it is within the task's period (deadline).
-
-### Results
-Run this Python script to determine if the given set of tasks is schedulable under the Rate Monotonic Scheduling policy. If the total utilization is within the bound and each task's response time is within its period, then the task set is schedulable.
